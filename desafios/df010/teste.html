@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolar Página até Título</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .section {
+            height: 100vh;
+            padding: 20px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        .scroll-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .scroll-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="section" id="section1">
+        <h1>Bem-vindo!</h1>
+        <p>Para rolar até o título específico, clique no link abaixo:</p>
+        <a href="#titulo-especifico" class="scroll-link">Rolar até o Título Específico</a>
+    </div>
+
+    <div class="section" id="section2">
+        <h2 id="titulo-especifico">Título Específico</h2>
+        <p>Você rolou até este título específico.</p>
+    </div>
+
+    <div class="section" id="section3">
+        <h2>Outra Seção</h2>
+        <p>Conteúdo adicional aqui.</p>
+    </div>
+</body>
+</html>

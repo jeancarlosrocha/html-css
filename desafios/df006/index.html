@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Tags HTML</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        header {
+            background-color: blueviolet;
+            padding: 60px;
+            border-radius: 10px 20px 30px 40px;
+            border: 10px;
+            border-style: groove;
+            border-color: black;
+        }
+
+        main {
+            max-width: 550px;
+            background-image: linear-gradient(to right, blueviolet, rgba(0, 0, 0, 0.801));
+            border: 10px groove black;
+            margin: auto;
+        }
+
+        main h1 {
+            text-align: center;
+            font-size: 2.5em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        main p {
+            text-align: justify;
+            text-indent: 20px;
+            padding: 10px;
+        }
+
+        main ul {
+            padding-left: 50px;
+            padding-bottom: 10px;
+        }
+
+        main abbr {
+            text-decoration: none;
+            border: none;
+        }
+
+        main abbr:hover {
+            border-bottom: 1px dotted;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Tags em HTML</h1>
+        <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para desbobrir qual
+            tag deveá utilizar em cada caso.</p>
+        <ul>
+            <li type="disc"><abbr title="Use a tah &lt;p&gt;">Parágrafo</abbr></li>
+            <li type="circle"><abbr title="Usa as taga &lt;h1&gt; ate a &lt;h6&gt;">Títulos</abbr></li>
+            <li type="square"><abbr title="Usa a tag &lt;img&gt;">Imagens</abbr></li>
+            <li type="disc">A<abbr title="Usa a tag &lt;abbr&gt;">breviações</abbr></li>
+            <li type="circle"><abbr title="Usa a tag &lt;code&gt;">Código-fonte</abbr></li>
+            <li type="square"><abbr title="Usa as tags &lt;ol&gt; &lt;li&gt;">Listas numeradas</abbr></li>
+            <li type="disc"><abbr title="Usa as tags &lt;ul&gt; &lt;li&gt;"">Listas com demarcadores</abbr></li>
+        </ul>
+    </main>
+</body>
+</html>
